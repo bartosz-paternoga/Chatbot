@@ -14,7 +14,7 @@ def save_clean_data(sentences, filename):
 	print('Saved: %s' % filename)
 
 # load dataset
-a = loadtxt('cornelltrimmed4.csv', delimiter=',', dtype=str)
+a = loadtxt('sample_conversations.csv', delimiter=',', dtype=str)
 
 # reduce dataset size
 n_sentences = 29
